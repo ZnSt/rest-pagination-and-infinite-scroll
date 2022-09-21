@@ -22,9 +22,9 @@ loadMoreBtn.refs.button.addEventListener('click', onLoadMore);
 function onSearch(event) {
   event.preventDefault();
   newsApiService.query = event.currentTarget.elements.query.value;
-  //   if (newsApiService.query === '') {
-  //     return alert('Введи что-нибудь нормальное');
-  //   }
+  if (newsApiService.query === '') {
+    Notiflix.Notify.warning('Введи что-нибудь нормальное');
+  }
   loadMoreBtn.show();
   newsApiService.resetPage();
   clearArticleContainer();

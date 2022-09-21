@@ -1,0 +1,22 @@
+button,
+[data-load-more] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button.is-hidden {
+  display: none;
+}
+
+button.btn-service > .spinner-grow.is-hidden {
+  display: none;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}

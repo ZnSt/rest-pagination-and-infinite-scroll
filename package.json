@@ -18,6 +18,7 @@
     "url": "https://github.com/ZnSt/rest-pagination-and-infinite-scroll/issues"
   },
   "dependencies": {
+    "bootstrap": "^5.2.1",
     "hbs": "^4.2.0",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.5"

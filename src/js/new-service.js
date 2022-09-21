@@ -32,7 +32,7 @@ export default class NewApiService {
   }
 
   get query() {
-    return this.query;
+    return this.searchQuery;
   }
 
   set query(newQuery) {
